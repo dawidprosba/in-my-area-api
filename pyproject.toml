@@ -1,3 +1,7 @@
+[project]
+name = "in_my_area_api"
+version = "0.1.0"
+
 [tool.black]
 line-length = 88
 target-version = ['py310']
