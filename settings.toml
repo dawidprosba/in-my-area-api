@@ -1,1 +1,3 @@
 
+[weatherapi]
+url = "http://api.weatherapi.com/v1/{endpoint}.json?key={api_key}&q={query}"
