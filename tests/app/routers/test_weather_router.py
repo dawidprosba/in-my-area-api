@@ -1,5 +1,5 @@
 class TestWeatherRouter:
-    def test_get_alerts(self, api_client, weatherapi_alerts_mock):
+    def test_get_alerts(self, api_client):
         response = api_client.get("/weather/alerts?city=Cracow")
 
         assert response.status_code == 200
